@@ -96,7 +96,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://portfolio-master-pearl.vercel.app//"
+                href="https://narendrachitteti.vercel.app"
                 target="_blank"
                 rel="noreferrer"
               >
