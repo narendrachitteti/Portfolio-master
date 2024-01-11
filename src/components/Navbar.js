@@ -83,7 +83,7 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -105,11 +105,11 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="https://narendrachitteti.vercel.app"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Contact
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
