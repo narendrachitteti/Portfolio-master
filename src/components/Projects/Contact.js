@@ -203,42 +203,18 @@ function Contact() {
             <Col md={7}>
               <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formName">
-                  <Form.Label>Your Name</Form.Label>
-                  <Form.Control
-                    type="text"
-                    name="username"
-                    value={formData.username}
-                    onChange={handleChange}
-                    placeholder="Enter your name"
-                  />
-                </Form.Group>
-
-                <Form.Group className="mb-3" controlId="formEmail">
-                  <Form.Label>Email address</Form.Label>
-                  <Form.Control
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    placeholder="Enter your email"
-                  />
+                  <Form.Label>E-Mail me:</Form.Label><br/>
+                  <Form.Label>chittetinarendra2000@gmail.com</Form.Label><br/><br/>
+                  <Form.Label>Github:</Form.Label><br/>
+                  <Form.Label>https://github.com/narendrachitteti</Form.Label>
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formMessage">
-                  <Form.Label>Message</Form.Label>
-                  <Form.Control
-                    as="textarea"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    rows={4}
-                    placeholder="Your message"
-                  />
+                <Form.Label>LinkedIn:</Form.Label><br/>
+                  <Form.Label>https://www.linkedin.com/in/narendrachitteti800/</Form.Label>
                 </Form.Group>
 
-                <Button variant="primary" type="submit">
-                  Submit
-                </Button>
+                
               </Form>
             </Col>
           </Row>

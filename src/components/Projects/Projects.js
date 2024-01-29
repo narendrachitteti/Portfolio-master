@@ -35,8 +35,8 @@ function Projects() {
               isBlog={false}
               title="Payment Billing"
               description="This payment billing application facilitates adding Items, generating invoices, and tracking payment history. It streamlines billing procedures, enhances for businesses and individuals."
-              ghLink="https://github.com/narendrachitteti/Payment_Billing/tree/master"
-              demoLink="https://github.com/narendrachitteti/Payment_Billing/tree/master"              
+              ghLink="https://github.com/narendrachitteti/Payment-Billing"
+              demoLink="https://payment-billing.vercel.app/"              
             />
           </Col>
           <Col md={4} className="project-card">
