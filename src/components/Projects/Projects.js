@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import billing from "../../Assets/Projects/billing.png";
+import billing from "../../Assets/Projects/farmstore1.png";
 import hospital from "../../Assets/Projects/hospital.png";
-import login12 from "../../Assets/Projects/login12.png";
+import login12 from "../../Assets/Projects/cocopeat122.png";
 
 function Projects() {
   return (
@@ -22,7 +22,7 @@ function Projects() {
             <ProjectCard
               imgPath={hospital}
               isBlog={false}
-              title="Hospital Project"
+              title="JANANI"
               description="This hospital application streamlines healthcare processes, features like appointment scheduling, real-time patient monitoring, and secure access to medical records build with ReactJs, Material-UI, and MongoDB. It enhances communication between patients and healthcare providers, optimizing the overall efficiency and quality of healthcare services."
               ghLink="https://github.com/narendrachitteti/VN-hms-client"
               demoLink="https://github.com/narendrachitteti/VN-hms-client"
@@ -33,20 +33,20 @@ function Projects() {
             <ProjectCard
               imgPath={billing}
               isBlog={false}
-              title="Payment Billing"
-              description="This payment billing application facilitates adding Items, generating invoices, and tracking payment history. It streamlines billing procedures, enhances for businesses and individuals."
-              ghLink="https://github.com/narendrachitteti/Payment-Billing"
-              demoLink="https://payment-billing.vercel.app/"              
+              title="FARM E-STORE"
+              description="An e-commerce platform dedicated to agricultural products, including fertilizers, chemicals, seeds, and farming tools. It streamlines product browsing, purchasing, and invoice generation for farmers and agricultural businesses."
+              ghLink="https://farme-store.vercel.app/"
+              demoLink="https://farme-store.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={login12}
               isBlog={false}
-              title="Login & Signup"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/narendrachitteti/Login-Signup-Reactjs"
-              demoLink="https://login-signup-project-git-main-narendrachittetis-projects.vercel.app/"
+              title="Tirumala CocoPeat"
+              description="An online platform focused on cocopeat-based products, such as cocopeat bricks, blocks, and grow bags. It facilitates easy browsing and ordering of eco-friendly growing mediums for gardening and agricultural needs."
+              ghLink="https://tirumalacocopeat.vercel.app/"
+              demoLink="https://tirumalacocopeat.vercel.app/"
             />
           </Col>
         </Row>
