@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Narendra Chitteti </span>
             from <span className="purple"> Andhrapradesh, India.</span>
             <br />
-            I am currently employed as a Full Stack developer at Matrical Technologies.
+            I am currently employed as a Full Stack developer at Digitory Solutions.
             <br />
             I have completed BTech in Electrical & Electronics Engineering at SEAT
             College.
